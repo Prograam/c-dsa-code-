@@ -17,15 +17,15 @@ int maximumfreq(vector<int> &arr , int n)
         cout << i.first  << " " << i.second<< endl;
 
     }
-    // for(int i =0 ; i< arr.size();i ++)
-    // {
-    //     if(maxfreq == count[arr[i]])
-    //     {
-    //         maxans = arr[i];
-    //         break;
-    //     }
-    // }
-    // return maxans;
+    for(int i =0 ; i< arr.size();i ++)
+    {
+        if(maxfreq == count[arr[i]])
+        {
+            maxans = arr[i];
+            break;
+        }
+    }
+    return maxans;
 }
 int main()
 {
