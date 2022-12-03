@@ -68,6 +68,7 @@ int sortcolors(vector<int>&arr , int n)
     int zero = 0;
     int curr  = 0;
     int two = n-1;
+    
     while(i<=two)
     {
         if(arr[i] == 2)
